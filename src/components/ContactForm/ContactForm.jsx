@@ -21,8 +21,8 @@ const ContactForm = ({ addContact }) => {
 
   const FeedbackError = Yup.object().shape({
     name: Yup.string()
-      .min(2, "Too Short!")
-      .max(40, "Too Long!")
+      .min(3, "Too Short!")
+      .max(50, "Too Long!")
       .required("Required"),
     number: Yup.string().required("Required"),
   });
