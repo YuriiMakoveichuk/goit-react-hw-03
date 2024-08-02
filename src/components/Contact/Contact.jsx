@@ -1,7 +1,7 @@
 import { FaPhone } from "react-icons/fa";
 import { FaUser } from "react-icons/fa";
 
-import css from "./ContactList.module.css";
+import css from "../ContactList/ContactList.module.css";
 
 const Contact = ({ contact, onDeleteContact }) => {
   return (
